@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #error-message {
+    color: red;
+  }
+  
