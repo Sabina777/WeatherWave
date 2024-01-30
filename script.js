@@ -8,7 +8,7 @@ async function getWeather() {
   const cityName = cityInput.value.trim();
 
   if (cityName === '') {
-    errorMessage.textContent = 'Please enter a city name.';
+    errorMessage.textContent = 'Please enter a city name..';
     weatherInfo.textContent = '';
     return;
   }
